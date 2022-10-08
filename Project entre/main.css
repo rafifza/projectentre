@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial', cursive;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A3BCB6;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    height: 56px;
+}
+.links li{
+    display: flex;
+    padding-right: 15px;
+    color: black;
+}
+a{
+    color: #3C403D;
+}
+.parent-links{
+    position: relative;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    
+}
+
+.bg{
+    background-color: #DADED4;
+    flex-direction: row;
+    height: 687px;
+}
+
+.topcont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.futsaltext{
+    position: absolute;
+    left: 33%;
+    top: 30px;
+}
+.content1{
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
+.badmintontext{
+    position: absolute;
+    right: 32%;
+    top: 30px;
+}
+.content2{
+    position: absolute;
+    right: 25%;
+    top: 50px;
+}
+.sepakbolatext{
+    position: absolute;
+    top: 330px;
+    left: 17%;
+}
+.content3{
+    position: absolute;
+    top: 350px;
+    left: 10%;
+}
+.baskettext{
+    position: absolute;
+    top: 330px;
+    left: 48%;
+}
+.content4{
+    position: absolute;
+    top: 350px;
+    left: 40%;
+}
+.volitext{
+    position: absolute;
+    top: 330px;
+    right: 19%;
+}
+.content5{
+    position: absolute;
+    top: 350px;
+    right: 10%;
+}

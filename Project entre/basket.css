@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial', cursive;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A3BCB6;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    height: 56px;
+}
+.links li{
+    display: flex;
+    padding-right: 15px;
+    color: black;
+}
+a{
+    color: #3C403D;
+}
+.parent-links{
+    position: relative;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    
+}
+
+.bg{
+    background-color: #DADED4;
+    flex-direction: row;
+    height: 687px;
+}
+.text{
+    position: absolute;
+    font-size: large;
+    top: 70px;
+    left: 3%;
+}
+.content1{
+    display: flex;
+    position: sticky;
+    top: 90px;
+    left: 3%;
+    padding: 20px;
+    background-color: #A3BCB6;
+}
+.name1{
+    position: absolute;
+    font-size: large;
+    left: 22%;
+    top: 30px;
+}
+.add1{
+    position: absolute;
+    font-size: large;
+    left: 22%;
+    top: 90px;
+}
+.fac1{
+    position: absolute;
+    font-size: large;
+    left: 22%;
+    top: 150px;
+}
+.rat1{
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    left: 90%;
+    top: 30px;
+}
+.book1{
+    position: absolute;
+    font-size: large;
+    background-color: #ffff;
+    text-align: center;
+    padding: 10px;
+    left: 88.5%;
+    top: 140px;
+}
+.content2{
+    display: flex;
+    position: sticky;
+    top: 350px;
+    left: 3%;
+    padding: 20px;
+    background-color: #A3BCB6;
+}
+.name2{
+    position: absolute;
+    font-size: large;
+    left: 22%;
+    top: 30px;
+}
+.add2{
+    position: absolute;
+    font-size: large;
+    left: 22%;
+    top: 90px;
+}
+.fac2{
+    position: absolute;
+    font-size: large;
+    left: 22%;
+    top: 150px;
+}
+.rat2{
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    left: 90%;
+    top: 30px;
+}
+.book2{
+    position: absolute;
+    font-size: large;
+    background-color: #ffff;
+    text-align: center;
+    padding: 10px;
+    left: 88.5%;
+    top: 140px;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial', cursive;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A3BCB6;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    height: 56px;
+}
+.links li{
+    display: flex;
+    padding-right: 15px;
+    color: black;
+}
+a{
+    color: #3C403D;
+}
+.parent-links{
+    position: relative;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    
+}
+
+.bg{
+    background-color: #DADED4;
+    flex-direction: row;
+    height: 687px;
+}
+.head1{
+    position: relative;
+    display: flex;
+}
+.title{
+    position: relative;
+    font-size: 34px;
+    top: 5px;
+    left: 1%;
+}
+.content1{
+    background-color: #A3BCB6;
+    position: sticky;
+    display: flex;
+    padding: 20px;
+}
+.text1{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+}
+.img1{
+    position: relative;
+    top: 15px;
+    left: 10%;
+}
+.img2{
+    position: relative;
+    top: 15px;
+    left: 20%;
+}
+.img3{
+    position: relative;
+    top: 15px;
+    left : 30%;
+}
+.content2{
+    position: absolute;
+    display: flex;
+    padding-right: 700px;
+    top: 380px;
+    left: 20px;
+}
+.loctext{
+    position: absolute;
+    top: 7px;
+    left: 70px;
+}
+.content3{
+    position: absolute;
+    display: flex;
+    padding-right: 700px;
+    top: 450px;
+    left: 20px;
+}
+.timetext{
+    position: absolute;
+    top: 7px;
+    left: 70px;
+}
+.content4{
+    position: fixed;
+    display: flex;
+    top: 440px;
+    left: 400px;
+}
+.wifi{
+    position: fixed;
+    left: 20%;
+}
+.shower{
+    position: fixed;
+}
+.park{
+    position: fixed;
+    left: 20%;
+    top: 510px;
+}
+.market{
+    position: fixed;
+    top: 510px;
+}
+.content5{
+    position: absolute;
+    display: flex;
+    padding-right: 700px;
+    top: 520px;
+    left: 20px;
+}
+.pritext{
+    position: absolute;
+    top: 13px;
+    left: 70px; 
+}
+.btn{
+    position: absolute;
+    background-color: #ffff;
+    right: 40px;
+    top: 670px;
+    padding: 20px;
+}
